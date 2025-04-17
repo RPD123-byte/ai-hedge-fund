@@ -1,0 +1,6 @@
+version: "3"
+services:
+  user-service:
+    build: ./services/user-service
+  product-service:
+    build: ./services/product-service
